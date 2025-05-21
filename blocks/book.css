@@ -1,0 +1,57 @@
+.book {
+  background: linear-gradient(rgba(200, 170, 200, .8) 0%, rgba(255, 255, 255, 0.9) 100%);
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book__title {
+  font-size: 75px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.book__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.book__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.book__input {
+  min-width: 340px;
+  max-width: max-content;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.book__submit-button {
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: rgb(201, 126, 201);
+  color: #FFF;
+  transition: background-color color linear;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.book__submit-button:hover {
+  background-color: #FFF;
+  color: rgb(201, 126, 201);
+}
+
+@media screen and (max-width: 500px) {
+  .book__title {
+    font-size: 50px;
+  }
+}

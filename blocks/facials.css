@@ -1,0 +1,45 @@
+.facials {
+  background: linear-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(200, 170, 200, .8) 100%);
+  border-bottom: 4px solid rgb(175, 175, 175);
+  padding-bottom: 50px;
+}
+
+.facials__title {
+  font-size: 75px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.facials__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+}
+
+.facials__service {
+  list-style-type: none;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.facials__service-divider {
+  flex-grow: 1;
+  border-bottom: 1px dotted #000;
+}
+
+@media screen and (max-width: 500px) {
+  .facials__title {
+    font-size: 50px;
+  }
+
+  .facials__service {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,12 @@
+.page {
+  background-color: #fff;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  color: #000;
+  min-width: 360px;
+}
+
+@media screen and (max-width: 500px) {
+  .page {
+    font-size: 10px;
+  }
+}
