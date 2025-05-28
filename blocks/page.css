@@ -1,8 +1,9 @@
 .page {
   background-color: #fff;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  color: #000;
+  font-family: "DancingScript", Helvetica, serif;
   min-width: 360px;
+  color: rgb(134, 2, 134);
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 500px) {

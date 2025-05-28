@@ -10,6 +10,7 @@
   margin: 0;
   padding: 20px 0;
   text-align: center;
+  text-shadow: 1px 1px #000;
 }
 
 .book__form {
@@ -23,6 +24,8 @@
 .book__label {
   display: flex;
   flex-direction: column;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .book__input {
@@ -32,12 +35,17 @@
   height: 30px;
 }
 
+input::placeholder {
+  font-family: Helvetica;
+}
+
 .book__submit-button {
   width: 150px;
   height: 35px;
   border-radius: 10px;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
   background-color: rgb(201, 126, 201);
   color: #FFF;
   transition: background-color color linear;

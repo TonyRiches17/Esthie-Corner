@@ -9,6 +9,7 @@
   margin: 0;
   padding: 20px 0;
   text-align: center;
+  text-shadow: 1px 1px #000;
 }
 
 .hair__class {
@@ -16,6 +17,7 @@
   text-align: center;
   margin: 0;
   padding: 10px 0 0;
+  text-shadow: .5px .5px #000;
 }
 
 .hair__list {
@@ -24,7 +26,6 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .hair__service {
@@ -33,12 +34,38 @@
   width: 50%;
   margin: 0 auto;
   gap: 10px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .hair__service-divider {
   flex-grow: 1;
   border-bottom: 1px dotted #000;
+}
+
+.hair__video-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.hair__video {
+  margin: 50px 0 0;
+  min-width: 350px;
+  width: 30%;
+  border-radius: 15px;
+}
+
+.hair__pictures-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.hair__picture {
+  margin: 50px 0 0;
+  min-width: 350px;
+  height: 500px;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 500px) {
